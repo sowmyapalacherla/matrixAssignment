@@ -1,0 +1,57 @@
+.map-container{
+    background-color: #00161D;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.top-heading{
+    font-size: 20px;
+}
+.kick-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.phase-container{
+    margin:10px;
+    margin-left: 20px;
+}
+.phase{
+    font-size: 10px;
+    background-color: aliceblue;
+    color: #00161D;
+    width:100px;
+}
+.kick{
+    font-size: 20px;
+    text-align: start;
+}
+
+.kick-list {
+    list-style-type:circle;
+    text-align: start;
+ 
+}
+.kick-list-questions{
+    list-style-type: circle;
+    text-align: start;
+}
+.d-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .kick-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+}

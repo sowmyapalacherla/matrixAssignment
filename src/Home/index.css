@@ -1,0 +1,93 @@
+.background{
+    background-color: #00161D;
+    background-image: url("https://res.cloudinary.com/dv9pez6sa/image/upload/v1729070921/image_11_wvhvnk.svg");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar-large{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:transparent;
+   
+
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-size: 10px;
+    background-color:#0B2A2D;
+    border-radius: 14px;
+    width: 655x;
+    height: 34px;
+    color: #1adef5;
+    border-color:#1E808C;
+    border:1px;
+    align-items: center;
+    margin-left: 150px;
+
+
+}
+.link{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color:#fff;
+}
+.logout-container{
+    margin: 5px;
+    padding: 5px;
+}
+.logo-head{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color:#ffffff;
+}
+.logout{
+    background-color: transparent;
+    border: 0px;
+    color: #ffffff;
+    font-size: 10px;
+
+}
+.white-paper{
+    background-color: #cdfcff;
+    color:#0B2a2d;
+    border:0px;
+    font-size: 10px;
+
+}
+.heading{
+    color: #ffffff;
+
+}
+.description{
+    color:  #1adef5;
+    font-size: 10px;
+
+}
+.invest{
+    background-color: #ffffff;
+    border-radius: 13px;
+    color:#0B2a2d;
+}
+@media (max-width: 768px) {
+    .background{
+        height: auto;
+    }
+    .nav-links{
+        width: auto;
+        margin-left: 40px;
+        font-size: 5px;
+        width: auto;
+        padding: 0px;
+    
+
+    }
+    .logout-container{
+        font-size: 5px;
+    }
+}

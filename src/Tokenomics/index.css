@@ -1,0 +1,56 @@
+.name-container{
+    background-color: #0C2B2FB2;
+    width:auto;
+    height: auto;
+    padding:10px;
+    border-radius: 10px;
+}
+.tokenomics-container{
+    background-color: #00161D;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: "100%";
+    
+    color:aliceblue
+}
+.tokenomic{
+    display: flex;
+    flex-direction:row;
+   justify-content: space-around;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.value{
+    display: flex;
+    text-align: left;
+    font-size: 10px;
+    text-align: start;
+}
+.naming{
+    font-size: 10px;
+}
+.team {
+    background-color: #0C2B2FB2;
+    width:auto;
+    height: auto;
+    padding:10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.image{
+    height: 250px;
+    width: 300px;
+}
+@media (max-width: 768px) {
+    .tokenomic{
+        display: flex;
+        flex-direction: column;
+    }
+}

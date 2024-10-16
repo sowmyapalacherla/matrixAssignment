@@ -1,0 +1,153 @@
+.features-container {
+    background-color: #00161D;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+
+   
+}
+.top-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    /* width: "90%"; */
+}
+.first-container{
+    background-color: #0C2B2FB2;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+  
+     border-radius: 10px;
+}
+.trade{
+    font-size: 13px;
+    color: #ffffff;
+    
+}
+.para{
+    font-size: 10px;
+    color:#1E808C;
+}
+.outer-ring{
+    border-color: #0E8B9A;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    border-width: 3px;
+    background-color: #15B6C9;
+    flex-direction: column;
+    
+    
+}
+.middle-ring {
+    background-color: #15B6C9;
+    
+}
+.top-one-container{
+    background-color: #0C2B2FB2;
+    height: 140px;
+    width: 360px;
+   
+    border-radius: 5px;
+}
+.cont{
+    background-color: #0C2B2FB2;
+    height: 140px;
+    width: 360px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+   
+}
+.last-container{
+    background-color: #0C2B2FB2;
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+    
+    
+
+}
+.down-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+
+
+}
+.left-container{
+    background-color: #0C2B2FB2;
+    
+ 
+    
+ 
+   
+   border-top-left-radius: 30px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.right-container{
+    background-color: #0C2B2FB2;
+   
+ 
+   border-top-left-radius: 10px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+    .features-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .top-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-container{
+       display: flex;
+       flex-direction: column;
+    }
+    .middle-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .down-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        border-radius: 20px;
+        width:90vw;
+    }
+    .right-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        border-radius: 20px;
+        width:90vwh;
+    }
+    .cont{
+        display: none;
+    }
+}
